@@ -61,3 +61,25 @@ def number_to_short_month_name(month_string)
       " I don't know which Month "
   end
 end
+
+
+def volume_of_cube(length)
+  length = length.to_i
+  return volume_of_cube = (length ** 3)
+end
+
+
+def volume_of_sphere(radius)
+  radius = radius.to_i
+  fraction = 4 / 3
+  return volume_of_sphere = (radius ** 3 * 3.14 * fraction)
+end
+
+p volume_of_sphere(1)
+
+
+def fahrenheit_to_celsius(fahrenheit)
+  fraction = 5 / 9
+  return celsius = fahrenheit - 32 * fraction
+end
+p fahrenheit_to_celsius (55)
