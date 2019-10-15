@@ -10,15 +10,15 @@ class FunctionsTest < MiniTest::Test
   end
 
   def test_add()
-    add_result = add( 1, 2 )
-    assert_equal( 3, add_result )
+    add_result = add( 4, 2 )
+    assert_equal( 6, add_result )
   end
-  
-  # def test_subtract()
-  #   subtract_result = subtract( 10, 5 )
-  #   assert_equal( 5, subtract_result )
-  # end
-  #
+
+  def test_subtract()
+    subtract_result = subtract( 10, 5 )
+    assert_equal( 5, subtract_result )
+  end
+
   # def test_multiply()
   #   multiply_result = multiply( 4, 2 )
   #   assert_equal( 8, multiply_result )
